@@ -65,9 +65,9 @@
 			"Name": "Floor",
 			"Transform": {
 				"Scale": {
-					"X": 4.0,
+					"X": 50.0,
 					"Y": 0.5,
-					"Z": 4.0
+					"Z": 50.0
 				}
 			},
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
@@ -81,6 +81,12 @@
 					}
 				]
 			}
+		},
+		{
+			"ID": "f2ead94f4fe1b00d689f0995af49922a",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "c737503d42038c35c1d649b34a7cb745",
+			"Name": "BoxCollider"
 		},
 		{
 			"ID": "b52991e14322d7eaab83caa9cc94e7ee",
@@ -100,6 +106,49 @@
 			"TypeName": "FlaxEngine.AudioListener",
 			"ParentID": "b52991e14322d7eaab83caa9cc94e7ee",
 			"Name": "Audio Listener"
+		},
+		{
+			"ID": "1c1e16824b86fec5fdee9c89753e6455",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "69e3af984e225363b5c56ab319cb309f",
+			"Name": "RigidBody",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 197.88143920898438,
+					"Z": 0.0
+				}
+			},
+			"Mass": 523.5988159179688
+		},
+		{
+			"ID": "6ae7acbe4dfd4895308c39be972f4928",
+			"TypeName": "Game.BallMovementController",
+			"ParentID": "1c1e16824b86fec5fdee9c89753e6455",
+			"V": {}
+		},
+		{
+			"ID": "3127d7fa4b35e63246426794503c5415",
+			"TypeName": "FlaxEngine.SphereCollider",
+			"ParentID": "1c1e16824b86fec5fdee9c89753e6455",
+			"Name": "SphereCollider"
+		},
+		{
+			"ID": "3ffd27e54a8983f889d8f28cac1e27cf",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3127d7fa4b35e63246426794503c5415",
+			"Name": "StaticModel",
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
 		}
 	]
 }
