@@ -111,7 +111,7 @@
 			"ID": "1c1e16824b86fec5fdee9c89753e6455",
 			"TypeName": "FlaxEngine.RigidBody",
 			"ParentID": "69e3af984e225363b5c56ab319cb309f",
-			"Name": "RigidBody",
+			"Name": "Ball",
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
@@ -149,6 +149,24 @@
 					}
 				]
 			}
+		},
+		{
+			"ID": "812d8a764a0407545907c795f487a911",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "69e3af984e225363b5c56ab319cb309f",
+			"Name": "Managers"
+		},
+		{
+			"ID": "bff0f19e4244d401746c96a61cb4abeb",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "812d8a764a0407545907c795f487a911",
+			"Name": "InputManager"
+		},
+		{
+			"ID": "63da24004079f0902508cc9939daa43c",
+			"TypeName": "Game.InputManager",
+			"ParentID": "bff0f19e4244d401746c96a61cb4abeb",
+			"V": {}
 		}
 	]
 }
