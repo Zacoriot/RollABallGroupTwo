@@ -96,8 +96,14 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 150.0,
-					"Z": -300.0
+					"Y": 1962.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
 				}
 			}
 		},
@@ -115,17 +121,19 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 197.88143920898438,
+					"Y": 200.0,
 					"Z": 0.0
 				}
 			},
-			"Mass": 523.5988159179688
+			"OverrideMass": true
 		},
 		{
 			"ID": "6ae7acbe4dfd4895308c39be972f4928",
 			"TypeName": "Game.BallMovementController",
 			"ParentID": "1c1e16824b86fec5fdee9c89753e6455",
-			"V": {}
+			"V": {
+	"_RollSpeed": 1000.0
+}
 		},
 		{
 			"ID": "3127d7fa4b35e63246426794503c5415",
