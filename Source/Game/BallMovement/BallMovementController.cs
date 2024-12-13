@@ -15,6 +15,12 @@ public class BallMovementController : Script
     [Header("==JUMP==")]
     [ShowInEditor, Serialize] float _JumpForce;
 
+    [Header("==GROUND DETECTION==")]
+    [ShowInEditor, Serialize] float _GroundDetectRadius;
+    [ShowInEditor, Serialize] Vector3 _GroundDetectOffset;
+    [ShowInEditor, Serialize] LayersMask _GroundMask;
+    bool _IsGrounded => Physics.CheckSphere(Actor.Position + _GroundDetectOffset, _GroundDetectRadius, _GroundMask);
+
     public override void OnStart()
     {
         _RigidBody = (RigidBody)Actor;
@@ -43,6 +49,16 @@ public class BallMovementController : Script
 
     void Jump()
     {
+        if(!_IsGrounded)
+        {
+            return;
+        }
+
        _RigidBody.AddForce(Vector3.Up * _JumpForce);
+    }
+
+    public override void OnDebugDraw()
+    {
+        DebugDraw.DrawWireSphere(new BoundingSphere(Actor.Position + _GroundDetectOffset, _GroundDetectRadius), Color.Green);
     }
 }

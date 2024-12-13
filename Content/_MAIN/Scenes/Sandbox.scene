@@ -119,6 +119,7 @@
 					"Z": 0.0
 				}
 			},
+			"Layer": 1,
 			"OverrideMass": true
 		},
 		{
@@ -127,20 +128,31 @@
 			"ParentID": "1c1e16824b86fec5fdee9c89753e6455",
 			"V": {
 	"_RollSpeed": 1000.0,
-	"_JumpForce": 25000.0
+	"_JumpForce": 25000.0,
+	"_GroundDetectRadius": 25.0,
+	"_GroundDetectOffset": {
+		"X": 0.0,
+		"Y": -50.0,
+		"Z": 0.0
+	},
+	"_GroundMask": {
+		"Mask": 1
+	}
 }
 		},
 		{
 			"ID": "3127d7fa4b35e63246426794503c5415",
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ParentID": "1c1e16824b86fec5fdee9c89753e6455",
-			"Name": "SphereCollider"
+			"Name": "SphereCollider",
+			"Layer": 1
 		},
 		{
 			"ID": "3ffd27e54a8983f889d8f28cac1e27cf",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "3127d7fa4b35e63246426794503c5415",
 			"Name": "StaticModel",
+			"Layer": 1,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
