@@ -96,14 +96,8 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 1962.0,
-					"Z": 0.0
-				},
-				"Orientation": {
-					"X": 0.7071068286895752,
-					"Y": 0.0,
-					"Z": 0.0,
-					"W": 0.7071068286895752
+					"Y": 250.0,
+					"Z": -500.0
 				}
 			}
 		},
@@ -132,7 +126,8 @@
 			"TypeName": "Game.BallMovementController",
 			"ParentID": "1c1e16824b86fec5fdee9c89753e6455",
 			"V": {
-	"_RollSpeed": 1000.0
+	"_RollSpeed": 1000.0,
+	"_JumpForce": 25000.0
 }
 		},
 		{
