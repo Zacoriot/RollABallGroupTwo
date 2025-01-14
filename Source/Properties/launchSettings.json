@@ -2,9 +2,9 @@
   "profiles": {
     "Game": {
       "commandName": "Executable",
-      "workingDirectory": "C:/Users/Isaac/Desktop/Class Repos/RollABallGroupTwo",
-      "executablePath": "C:/Program Files (x86)/Flax/Flax_1.9/Binaries/Editor/Win64/Development/FlaxEditor.exe",
-      "commandLineArgs": "-project \"C:/Users/Isaac/Desktop/Class Repos/RollABallGroupTwo\"",
+      "workingDirectory": "C:/Users/isaac/Desktop/Class Projects/RollABallGroupTwo",
+      "executablePath": "C:/_GAME DEV/FLAX/Flax_1.9/Binaries/Editor/Win64/Development/FlaxEditor.exe",
+      "commandLineArgs": "-project \"C:/Users/isaac/Desktop/Class Projects/RollABallGroupTwo\"",
       "nativeDebugging": false
     }
   }

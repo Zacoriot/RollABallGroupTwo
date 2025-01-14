@@ -64,10 +64,15 @@
 			"ParentID": "69e3af984e225363b5c56ab319cb309f",
 			"Name": "Floor",
 			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 680.0
+				},
 				"Scale": {
-					"X": 50.0,
-					"Y": 0.5,
-					"Z": 50.0
+					"X": 5.0,
+					"Y": 0.10000000149011612,
+					"Z": 20.0
 				}
 			},
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
@@ -96,10 +101,24 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 250.0,
+					"Y": 230.0,
 					"Z": -500.0
 				}
 			}
+		},
+		{
+			"ID": "ceed58394936cd73f5bb28b62a08ceaf",
+			"TypeName": "Game.CameraController",
+			"ParentID": "b52991e14322d7eaab83caa9cc94e7ee",
+			"V": {
+	"_Ball": "1c1e16824b86fec5fdee9c89753e6455",
+	"_FollowSpeed": 5.0,
+	"_Offset": {
+		"X": 0.0,
+		"Y": 230.0,
+		"Z": -500.0
+	}
+}
 		},
 		{
 			"ID": "d52c856649f3299fe023ee962b7b804f",
